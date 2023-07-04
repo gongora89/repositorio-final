@@ -1,6 +1,6 @@
 body {
   font-family: Arial, sans-serif;
-  background-color: #f2f2f2;
+  background-image: url('/Proyecto-backend/proyecto-final-veterinaria/public/imagenes/fondo-cm.jpg') ;
   margin: 0;
   padding: 20px;
 }
@@ -63,6 +63,7 @@ a:hover, input[type="submit"]:hover {
 
 .volver, .editar{
   background-color: #4cacaf;
+  margin-left: 50px;
 }
 
 .eliminar {
@@ -71,6 +72,7 @@ a:hover, input[type="submit"]:hover {
 
 .volver,.editar:hover {
   background-color: #429396;
+  justify-content: center;
 }
 
 .eliminar:hover {
@@ -89,5 +91,5 @@ button {
 .opciones-tabla a{
   width: 150px;
     text-align: center;
-    margin: 10px;
+    margin: 5px;
 }
