@@ -1,6 +1,6 @@
 body {
   font-family: Arial, sans-serif;
-  background-image: url('/Proyecto-backend/proyecto-final-veterinaria/public/imagenes/fondo-cm.jpg') ;
+  background-image: url('../imagenes/fondo-cm.jpg') ;
   margin: 0;
   padding: 20px;
 }
@@ -61,7 +61,7 @@ a:hover, input[type="submit"]:hover {
   background-color: #45a049;
 }
 
-.volver, .editar{
+.volver {
   background-color: #4cacaf;
   margin-left: 50px;
 }
@@ -93,3 +93,14 @@ button {
     text-align: center;
     margin: 5px;
 }
+
+.botones {
+  display: flex;
+    flex-direction: row;
+}
+
+.fondo {
+  background-image: url("../imagenes/fondo-cm.jpg") ;
+}
+
+
